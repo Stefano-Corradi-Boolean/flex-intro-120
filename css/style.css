@@ -1,0 +1,171 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 50px;
+}
+h3{
+  text-align: center;
+  margin-top: 20px
+}
+
+.container{
+  width: 600px;
+  height: 400px;
+  background-color: #97C694;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: brown;
+  border: 1px solid black;
+  color: white;
+  font-size: 30px;
+}
+
+.box-elastico{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: 1px solid black;
+  color: white;
+  font-size: 30px;
+}
+
+.box-basis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: 1px solid black;
+  color: white;
+  font-size: 30px;
+  flex-basis: 80px;
+}
+
+.due{
+  flex-direction: column;
+}
+
+.tre{
+  flex-direction: row-reverse;
+}
+
+.quattro{
+  flex-direction: column-reverse;
+}
+
+.cinque{
+  justify-content: flex-start; /* default */
+}
+
+.sei{
+  justify-content: flex-end;
+}
+
+.sette{
+  align-items: flex-start; /* default */
+}
+
+.otto{
+  align-items: flex-end; 
+}
+
+.nove{
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.dieci{
+  justify-content: center;
+}
+
+.undici{
+  justify-content: space-between;
+}
+
+.dodic{
+  justify-content: space-around;
+}
+
+.tredici{
+  justify-content: space-evenly;
+}
+
+.quattordici{
+  align-items: center;
+}
+
+.quindici{
+  align-items: center;
+  justify-content: center;
+}
+
+.sedici{
+  align-items: stretch;
+}
+
+.box-elastico.a{
+  height: 100px;
+}
+
+.box-elastico.b{
+  height: 70px;
+}
+
+.box-elastico.c{
+  height: 150px;
+}
+
+.diciassette{
+  align-items: baseline;
+}
+
+.diciotto{
+  flex-wrap: wrap;
+}
+
+.diciannove{
+  flex-wrap: wrap-reverse;
+}
+
+.ventuno .a0{
+  flex-grow: 0;
+}
+.ventuno .a1{
+  flex-grow: 1;
+}
+.ventuno .a2{
+  flex-grow: 2;
+}
+.ventuno .a3{
+  flex-grow: 3;
+}
+
+.ventidue .intero{
+  flex-shrink: 0;
+}
+
+.ventitre .a2{
+  order: 1;
+}
+
+.ventitre .a1{
+  order: 2;
+}
